@@ -1,5 +1,11 @@
-example  Value 123
+example Zip 141-0001
+
+Zip = {
+    Value '_' Value
+}
 
 DIGIT = [0-9]
 
-Value =DIGIT+
+Value = {DIGIT+ #int}
+DIGIT = [0-9]
+
