@@ -1,0 +1,5 @@
+example  Value 123
+
+DIGIT = [0-9]
+
+Value =DIGIT+
